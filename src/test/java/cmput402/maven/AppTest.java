@@ -31,13 +31,11 @@ public class AppTest
     public void testAdd() {
     	App app = new App();
     	assert(5 == app.add(2, 3));
-    	assert(4 == app.add(2, 3));
     }
     
     public void testMultiply() {
     	App app = new App();
     	assert(10 == app.multiply(2,5));
-    	assert(9 == app.multiply(2,5));
     }
 
 }
